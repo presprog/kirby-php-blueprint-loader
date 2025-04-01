@@ -7,6 +7,5 @@
 >
   <projectFiles>
     <directory name="classes" />
-    <directory name="extensions" />
   </projectFiles>
 </psalm>

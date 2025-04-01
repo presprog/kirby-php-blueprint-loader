@@ -41,10 +41,10 @@ composer create-project presprog/kirby-skeleton-plugin my-new-kirby-plugin
 Install this plugin via **Composer**:
 
 ```bash
-composer require presprog/my-kirby-plugin
+composer require presprog/kirby-php-blueprint-loader
 ```
 
-Or **download the ZIP file** from GitHub and unpack it to `site/plugins/my-kirby-plugin`
+Or **download the ZIP file** from GitHub and unpack it to `site/plugins/kirby-php-blueprint-loader`
 
 ## ✅ To do
 

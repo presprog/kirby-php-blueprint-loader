@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 
 $finder = PhpCsFixer\Finder::create()
+                           ->exclude('kirby')
                            ->exclude('panel')
                            ->exclude('vendor')
                            ->in(__DIR__);
