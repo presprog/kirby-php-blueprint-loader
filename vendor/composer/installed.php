@@ -1,13 +1,13 @@
 <?php return array(
     'root' => array(
-        'name' => 'presprog/my-kirby-plugin',
+        'name' => 'presprog/kirby-php-blueprint-loader',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '98d8865cf37c2b29d99b1cfa3fb4e4c075ac5a91',
+        'reference' => 'def24e0ee7a9fc32c20d4efd45cbb8d6c133e9f0',
         'type' => 'kirby-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'dev' => true,
+        'dev' => false,
     ),
     'versions' => array(
         'getkirby/composer-installer' => array(
@@ -19,10 +19,10 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'presprog/my-kirby-plugin' => array(
+        'presprog/kirby-php-blueprint-loader' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '98d8865cf37c2b29d99b1cfa3fb4e4c075ac5a91',
+            'reference' => 'def24e0ee7a9fc32c20d4efd45cbb8d6c133e9f0',
             'type' => 'kirby-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
