@@ -1,6 +1,17 @@
 <?php declare(strict_types=1);
 
-@include_once __DIR__ . '/vendor/autoload.php';
-@include_once __DIR__ . '/helpers.php';
+use Kirby\Cms\App;
+use PresProg\PhpBlueprintLoader\PhpBlueprintLoader;
 
-\Kirby\Cms\App::plugin('presprog/my-kirby-plugin', []);
+App::plugin('presprog/php-blueprint-loader', [
+    'hooks' => [
+        'system.loadPlugins:after' => function () {
+            /** @var App $this */
+            $blueprints = PhpBlueprintLoader::loadFromFolder($this->root('blueprints'));
+
+            $this->extend([
+                'blueprints' => $blueprints
+            ]);
+        }
+    ]
+]);
