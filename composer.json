@@ -1,6 +1,7 @@
 {
   "name": "presprog/kirby-php-blueprint-loader",
-  "description": "Describe your plugin here",
+  "description": "Load PHP blueprints not only from plugins, but your `site` folder, too!",
+  "keywords": ["Kirby", "Blueprint Loader"],
   "license": "MIT",
   "type": "kirby-plugin",
   "authors": [
