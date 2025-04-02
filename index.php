@@ -3,6 +3,8 @@
 use Kirby\Cms\App;
 use PresProg\PhpBlueprintLoader\PhpBlueprintLoader;
 
+@include_once __DIR__ . '/vendor/autoload.php';
+
 App::plugin('presprog/php-blueprint-loader', [
     'hooks' => [
         'system.loadPlugins:after' => function () {

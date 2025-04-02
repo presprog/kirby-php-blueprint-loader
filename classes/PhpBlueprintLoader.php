@@ -13,7 +13,7 @@ class PhpBlueprintLoader
             $name             = basename($path, '.php');
             $parentDirectory  = basename(dirname($path));
             $key              = $parentDirectory === 'blueprints' ? $name : $parentDirectory . '/' . $name;
-            $blueprints[$key] = require $path;
+            $blueprints[$key] = $path;
         }
 
         return $blueprints;

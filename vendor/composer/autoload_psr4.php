@@ -6,6 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'PresProg\\MyPlugin\\' => array($baseDir . '/classes'),
+    'Tests\\PresProg\\PhpBlueprintLoader\\' => array($baseDir . '/tests'),
+    'PresProg\\PhpBlueprintLoader\\' => array($baseDir . '/classes'),
     'Kirby\\' => array($vendorDir . '/getkirby/composer-installer/src'),
 );

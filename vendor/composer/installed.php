@@ -3,7 +3,7 @@
         'name' => 'presprog/kirby-php-blueprint-loader',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'def24e0ee7a9fc32c20d4efd45cbb8d6c133e9f0',
+        'reference' => 'b2320010b8b7ad623359e58041858d978e122173',
         'type' => 'kirby-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'presprog/kirby-php-blueprint-loader' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'def24e0ee7a9fc32c20d4efd45cbb8d6c133e9f0',
+            'reference' => 'b2320010b8b7ad623359e58041858d978e122173',
             'type' => 'kirby-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

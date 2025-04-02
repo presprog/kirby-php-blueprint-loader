@@ -7,9 +7,13 @@ namespace Composer\Autoload;
 class ComposerStaticInit8107068928df2f39c91ccdbb9c8eb057
 {
     public static $prefixLengthsPsr4 = array (
+        'T' => 
+        array (
+            'Tests\\PresProg\\PhpBlueprintLoader\\' => 34,
+        ),
         'P' => 
         array (
-            'PresProg\\MyPlugin\\' => 18,
+            'PresProg\\PhpBlueprintLoader\\' => 28,
         ),
         'K' => 
         array (
@@ -18,7 +22,11 @@ class ComposerStaticInit8107068928df2f39c91ccdbb9c8eb057
     );
 
     public static $prefixDirsPsr4 = array (
-        'PresProg\\MyPlugin\\' => 
+        'Tests\\PresProg\\PhpBlueprintLoader\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
+        ),
+        'PresProg\\PhpBlueprintLoader\\' => 
         array (
             0 => __DIR__ . '/../..' . '/classes',
         ),
@@ -34,6 +42,10 @@ class ComposerStaticInit8107068928df2f39c91ccdbb9c8eb057
         'Kirby\\ComposerInstaller\\Installer' => __DIR__ . '/..' . '/getkirby/composer-installer/src/ComposerInstaller/Installer.php',
         'Kirby\\ComposerInstaller\\Plugin' => __DIR__ . '/..' . '/getkirby/composer-installer/src/ComposerInstaller/Plugin.php',
         'Kirby\\ComposerInstaller\\PluginInstaller' => __DIR__ . '/..' . '/getkirby/composer-installer/src/ComposerInstaller/PluginInstaller.php',
+        'PresProg\\PhpBlueprintLoader\\PhpBlueprintLoader' => __DIR__ . '/../..' . '/classes/PhpBlueprintLoader.php',
+        'Tests\\PresProg\\PhpBlueprintLoader\\PhpBlueprintLoaderTest' => __DIR__ . '/../..' . '/tests/PhpBlueprintLoaderTest.php',
+        'Tests\\PresProg\\PhpBlueprintLoader\\PluginTest' => __DIR__ . '/../..' . '/tests/PluginTest.php',
+        'Tests\\PresProg\\PhpBlueprintLoader\\TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

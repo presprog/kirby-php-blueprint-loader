@@ -11,4 +11,8 @@ return array(
     'Kirby\\ComposerInstaller\\Installer' => $vendorDir . '/getkirby/composer-installer/src/ComposerInstaller/Installer.php',
     'Kirby\\ComposerInstaller\\Plugin' => $vendorDir . '/getkirby/composer-installer/src/ComposerInstaller/Plugin.php',
     'Kirby\\ComposerInstaller\\PluginInstaller' => $vendorDir . '/getkirby/composer-installer/src/ComposerInstaller/PluginInstaller.php',
+    'PresProg\\PhpBlueprintLoader\\PhpBlueprintLoader' => $baseDir . '/classes/PhpBlueprintLoader.php',
+    'Tests\\PresProg\\PhpBlueprintLoader\\PhpBlueprintLoaderTest' => $baseDir . '/tests/PhpBlueprintLoaderTest.php',
+    'Tests\\PresProg\\PhpBlueprintLoader\\PluginTest' => $baseDir . '/tests/PluginTest.php',
+    'Tests\\PresProg\\PhpBlueprintLoader\\TestCase' => $baseDir . '/tests/TestCase.php',
 );

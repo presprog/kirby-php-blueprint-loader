@@ -2,7 +2,6 @@
 
 namespace Tests\PresProg\PhpBlueprintLoader;
 
-use PHPUnit\Framework\TestCase;
 use PresProg\PhpBlueprintLoader\PhpBlueprintLoader;
 
 class PhpBlueprintLoaderTest extends TestCase
@@ -11,14 +10,11 @@ class PhpBlueprintLoaderTest extends TestCase
     {
         $blueprintDir = __DIR__ . '/fixtures/site/blueprints';
 
-        $pageBlueprint = require  $blueprintDir . '/pages/php-blueprint.php';
-        $fileBlueprint = require  $blueprintDir . '/files/php-blueprint.php';
-
         $blueprints = PhpBlueprintLoader::loadFromFolder($blueprintDir);
 
         $this->assertEquals([
-            'pages/php-blueprint' => $pageBlueprint,
-            'files/php-blueprint' => $fileBlueprint,
+            'pages/blueprint' => $blueprintDir . '/pages/blueprint.php',
+            'files/blueprint' => $blueprintDir . '/files/blueprint.php',
         ], $blueprints);
     }
 }

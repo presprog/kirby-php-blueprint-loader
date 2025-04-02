@@ -19,7 +19,8 @@
   },
   "autoload": {
     "psr-4": {
-      "PresProg\\MyPlugin\\": "classes/"
+      "PresProg\\PhpBlueprintLoader\\": "classes/",
+      "Tests\\PresProg\\PhpBlueprintLoader\\": "tests/"
     }
   },
   "config": {
@@ -29,7 +30,8 @@
     "optimize-autoloader": true
   },
   "extra": {
-    "installer-name": "php-blueprint-loader"
+    "installer-name": "php-blueprint-loader",
+    "kirby-cms-path": false
   },
   "scripts": {
     "analyze": [
