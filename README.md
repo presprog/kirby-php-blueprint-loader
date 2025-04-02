@@ -14,7 +14,28 @@ Kirby lets you use PHP-based blueprints in plugins, e.g. to use different bluepr
 
 After installing this plugin, you can start using PHP-based blueprints in `site/blueprints` folder, just like you would in plugins!
 
-Happy Coding!
+```php
+// site/blueprints/pages/blueprint.php
+
+$user = kirby()->user();
+
+$fields = [
+    // Field config for all users
+];
+
+if ($user->isAdmin()) {
+    $fields = [
+      // Admins should have a separate set of fields
+    ];
+}
+
+return [
+    'title' => 'PHP-based blueprint',
+    'fields' => $fields,
+]
+```
+
+> ⚠️ Any existing YAML blueprint under the same name will be overwritten.
 
 [//]: # (## ⚙️ Config)
 
